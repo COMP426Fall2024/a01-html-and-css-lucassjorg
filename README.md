@@ -1,4 +1,4 @@
-
+l
 # Assignment 1
 
 In this assignment, we will create a set of HTML pages that are styled using CSS.
@@ -86,6 +86,6 @@ Using CSS frameworks like Bootstrap, Bulma, etc. counts as "incorporating code o
 
 Fill out the following information (edit this ReadMe):
 
-First and Last Name: [Your first and last name]
+First and Last Name: Lucas Jorgensen
 
 Deployed Website URL: https://comp426fall2024.github.io/a01-html-and-css-lucassjorg/
