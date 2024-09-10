@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css-ex1.css" />
+       </head>
+    <body>
+        <div class = "title">Mythological Stories and Pop Culture</div>
+    
+        <h1> 
+            <select onchange="document.getElementById('selected_text').innerHTML=options[selectedIndex].value;">
+                <option class="val" value="Choose a story">Choose a story!</option>
+                <option class="val" value="The ancient Greeks and Egyptians described a mythical bird called the Phoenix, a magnificent creature that was a symbol of renewal and rebirth. According to legend, each Phoenix lived for 500 years, and only one Phoenix lived at a time. Just before its time was up, the Phoenix built a nest and set itself on fire. Then, a new Phoenix would rise from the ashes.">Ancient Legened</option>
+                <option class="val" value="The fabled bird is said to live 500 years or more, and when the old bird is tired, it flies from Arabia to land in Heliopolis, Egypt, the “City of the Sun.” There, it gathers cinnamon twigs and resin to build a nest of spices atop the Temple of the Sun. The sun ignites the nest and the old phoenix dies in flames">Fable </option>
+                <option class="val" value="Fawkes was Dumbledore's phoenix in the Harry Potter Series, who was instrumental in helping Harry defeat the Basilisk in the Chamber of Secrets and whose feathers are in the wands of both Harry and Voldemort.">Fawkes</option>
+                <option class="val" value="The city of Phoenix, Arizona was given the name to symbolize how the new town would spring from the ruins of a former civilization. Atlanta, Georgia, and San Francisco, California both have phoenixes on their flags representing their rise after being burned down in the past.">Cities</option>
+                <option class="val" value="The phoenix is the mascot of many colleges and universities around the United States, including Elon University, the University of Chicago, Swarthmore College, The College of William and Mary, and many more.">Colleges</option>
+                <option class="val" value="Phoenixes are very popular in video games, with representation in Pokemon with the legendary bird Ho-Oh, a character named Phoenix in Valorant, Anivia in League of Legends, in Final Fantasy, Dota 2, and as a playable card in Clash Royale">Video Games</option>
+                <option class="val" value="Phoenixes are prevalent in all sorts of pop culture, and music is no differnt.  There is a French indie pop–rock band called Phoenix which has made hits such as 1901 and Lisztomania, and many songs are titled after phoenixes or are mentioned in lyrics. Some examples are Phoenix by Big Red Machine and Fleet Foxes, The Phoenix by Fall Out Boy, Phoenix by Daft Punk, Grey Seal by Elton John, and Runaway by Kanye West.">Music</option>
+            </select>
+        </h1>
+
+        <div class="footer"> <a href="index.html">Index</a>
+            <-> <a href="phoenix.html">Origins</a></div>
+
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Phoenix_%281583%29.svg"
+         alt="Illustration of a phoenix bw" class="big-img"
+         width = 35%
+         height = 35%>
+        </div>
+
+    </body>
+    
+
+    <div id="selected_text"></div>
+</html>
